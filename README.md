@@ -6,10 +6,6 @@
 This tutorial outlines the implementation of on-premises Active Directory within Azure Virtual Machines.<br />
 
 
-<h2>Video Demonstration</h2>
-
-- ### [YouTube: How to Deploy on-premises Active Directory within Azure Compute](https://www.youtube.com)
-
 <h2>Environments and Technologies Used</h2>
 
 - Microsoft Azure (Virtual Machines/Compute)
@@ -60,7 +56,7 @@ I restarted Client-1's VM, then I attempted to ping DC-1’s private IP address,
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-I installed Active Directory Domain Services on DC:1 & setup a new forest as 'mydomain.com' (can be anything) Then I restarted the VM and logged back in DC-1 as user: mydomain.com\labuser
+I installed Active Directory Domain Services on DC-1 & setup a new forest as 'mydomain.com' (can be anything) Then I restarted the VM and logged back in DC-1 as user: mydomain.com\labuser
 
 </p>
 <br />

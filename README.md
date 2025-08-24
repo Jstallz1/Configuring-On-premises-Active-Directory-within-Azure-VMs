@@ -34,14 +34,14 @@ To begin, I created a Resource Group titled 'Active Directory'. I then made 2 vi
 </p>
 <br />
 
-![active 1](https://github.com/user-attachments/assets/7c63d076-3fec-4f23-a179-10c194d241f3)
+![active 3](https://github.com/user-attachments/assets/07534632-60ba-4414-a498-774a245d805c)
 
 <p>
 I Logged into the VM for DC-1 and disabled the Windows Firewall (for testing connectivity) by typing in the 'Run' section 'wf.msc'
 </p>
 <br />
 
-![active 1](https://github.com/user-attachments/assets/7c63d076-3fec-4f23-a179-10c194d241f3)
+![active 3](https://github.com/user-attachments/assets/07534632-60ba-4414-a498-774a245d805c)
 
 <p>
 I restarted Client-1's VM, then I attempted to ping DC-1’s private IP address, which succeeded. And ran ipconfig /all on PowerShell. The output for the DNS settings showed DC-1’s private IP Address which was successful as well.
@@ -57,7 +57,8 @@ I installed Active Directory Domain Services on DC-1 & setup a new forest as 'my
 </p>
 <br />
 
-![active 1](https://github.com/user-attachments/assets/7c63d076-3fec-4f23-a179-10c194d241f3)
+![active 5](https://github.com/user-attachments/assets/adb80dd2-f18a-4c80-a622-7b8a8391cba2)
+
 
 <p>
 In Active Directory Users and Computers (ADUC), I created 2 Organizational Units (OU), called “_EMPLOYEES” & “_ADMINS”. Also, I created a new employee named “Jane Doe” with the username of “jane_admin” & added jane_admin to the “Domain Admins” Security Group. Then I logged back into the DC-1 VM as “mydomain.com\jane_admin”.

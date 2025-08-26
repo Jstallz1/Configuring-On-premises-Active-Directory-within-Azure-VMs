@@ -41,7 +41,7 @@ I Logged into the VM for DC-1 and disabled the Windows Firewall (for testing con
 </p>
 <br />
 
-![active 3](https://github.com/user-attachments/assets/07534632-60ba-4414-a498-774a245d805c)
+![active 22](https://github.com/user-attachments/assets/4d731f99-e765-44cd-9d6c-dcf9b3b9ab96)
 
 <p>
 I restarted Client-1's VM, then I attempted to ping DC-1’s private IP address, which succeeded. And ran ipconfig /all on PowerShell. The output for the DNS settings showed DC-1’s private IP Address which was successful as well.

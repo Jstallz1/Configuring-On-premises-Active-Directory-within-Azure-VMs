@@ -66,9 +66,10 @@ In Active Directory Users and Computers (ADUC), I created 2 Organizational Units
 </p>
 <br />
 
-![active 1](https://github.com/user-attachments/assets/7c63d076-3fec-4f23-a179-10c194d241f3)
+![Active 6](https://github.com/user-attachments/assets/99d8df8f-1380-4385-a71b-71c5ef0394ec)
 
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Lastly, I Logged into Client-1 as the original local admin (labuser) and joined it to the Active Directory Domain. Then, I Logged back into the Domain Controller and verified Client-1 shows up in the ADUC and is now a useable computer for the Active Directory.
+
 </p>
 <br />

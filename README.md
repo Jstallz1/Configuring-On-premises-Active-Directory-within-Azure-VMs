@@ -20,10 +20,11 @@ This tutorial outlines the implementation of on-premises Active Directory within
 
 <h2>High-Level Deployment and Configuration Steps</h2>
 
-- Step 1
-- Step 2
-- Step 3
-- Step 4
+- 1. Create 2 Virtual Machines (Domain Controller & Client)
+- 2. Disable Firewalls on DC's Computer
+- 3. Have Client's DNS server same as DC's Private IP Address
+- 4. Install Active Directory Users and Computers on DC's Computer (ADUC)
+- 5. Join Client's Computer to the Active Directory 
 
 <h2>Deployment and Configuration Steps</h2>
 
@@ -49,7 +50,7 @@ I restarted Client-1's VM, then I attempted to ping DC-1’s private IP address,
 </p>
 <br />
 
-![active 1](https://github.com/user-attachments/assets/7c63d076-3fec-4f23-a179-10c194d241f3)
+![active 7](https://github.com/user-attachments/assets/f7ce9104-bd20-4f47-991b-f54ca24ead6a)
 
 <p>
 I installed Active Directory Domain Services on DC-1 & setup a new forest as 'mydomain.com' (can be anything) Then I restarted the VM and logged back in DC-1 as user: mydomain.com\labuser
